@@ -31,10 +31,6 @@ class Main extends PluginBase implements Listener{
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff8"));
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff9"));
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff10"));
-                    $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff11"));
-                    $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff12"));
-                    $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff13"));
-                    $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff14"));
                     return true;
                 }
                 $player = $this->getServer()->getPlayer($sender->getName());
@@ -50,10 +46,6 @@ class Main extends PluginBase implements Listener{
                     $sender->sendMessage("§a- " . $this->getConfig()->get("staff8"));
                     $sender->sendMessage("§2- " . $this->getConfig()->get("staff9"));
                     $sender->sendMessage("§a- " . $this->getConfig()->get("staff10"));
-                    $sender->sendMessage("§2- " . $this->getConfig()->get("staff11"));
-                    $sender->sendMessage("§a- " . $this->getConfig()->get("staff12"));
-                    $sender->sendMessage("§2- " . $this->getConfig()->get("staff13"));
-                    $sender->sendMessage("§a- " . $this->getConfig()->get("staff14"));
                     return true;
                 }
                 break;
