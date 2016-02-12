@@ -1,5 +1,5 @@
 <?php
-namespace TheDeibo\;
+namespace TheDeibo;
 
 use pocketmine\utils\TextFormat;
 use pocketmine\plugin\PluginBase;
