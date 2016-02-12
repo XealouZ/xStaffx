@@ -1,0 +1,15 @@
+name: xStaffx
+description: Allows users to view all Staff with /staff
+author: TheDeibo
+main: TheDeibo\Main
+load: POSTWORLD
+version: 2.0
+api: [1.8.0]
+commands:
+    staff:
+        usage: /staff
+        description: Shows a list of staff.
+permissions:
+    thedeibo.staff:
+        default: true
+        description: Allows user to use /staff
