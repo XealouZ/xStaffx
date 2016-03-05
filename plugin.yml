@@ -10,6 +10,6 @@ commands:
         usage: /staff
         description: Shows a list of staff.
 permissions:
-    thedeibo.staff:
+    marinostudios.staff:
         default: true
         description: Allows user to use /staff
