@@ -20,7 +20,7 @@ class Main extends PluginBase implements Listener{
         switch ($cmd){
             case "staff":
                 if (!($sender instanceof Player)){
-                    $sender->sendMessage(TEXTFORMAT::GOLD . "--------[TheDeiboMC Staff]--------");
+                    $sender->sendMessage(TEXTFORMAT::GOLD . "--------[Marino Studios Staff]--------");
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff1"));
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff2"));
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff3"));
@@ -29,23 +29,19 @@ class Main extends PluginBase implements Listener{
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff6"));
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff7"));
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff8"));
-                    $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff9"));
-                    $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("staff10"));
                     return true;
                 }
                 $player = $this->getServer()->getPlayer($sender->getName());
-                if ($player->hasPermission("thedeibo.staff")){
-                    $sender->sendMessage("§a--------§2[TheDeiboMC Staff]§a--------");
-                    $sender->sendMessage("§2- " . $this->getConfig()->get("staff1"));
+                if ($player->hasPermission("marinostudios.staff")){
+                    $sender->sendMessage("§c--------§e[§aMarino §bStudios §2Staff§e]§c--------");
+                    $sender->sendMessage("§b- " . $this->getConfig()->get("staff1"));
                     $sender->sendMessage("§a- " . $this->getConfig()->get("staff2"));
-                    $sender->sendMessage("§2- " . $this->getConfig()->get("staff3"));
+                    $sender->sendMessage("§b- " . $this->getConfig()->get("staff3"));
                     $sender->sendMessage("§a- " . $this->getConfig()->get("staff4"));
-                    $sender->sendMessage("§2- " . $this->getConfig()->get("staff5"));
+                    $sender->sendMessage("§b- " . $this->getConfig()->get("staff5"));
                     $sender->sendMessage("§a- " . $this->getConfig()->get("staff6"));
-                    $sender->sendMessage("§2- " . $this->getConfig()->get("staff7"));
+                    $sender->sendMessage("§b- " . $this->getConfig()->get("staff7"));
                     $sender->sendMessage("§a- " . $this->getConfig()->get("staff8"));
-                    $sender->sendMessage("§2- " . $this->getConfig()->get("staff9"));
-                    $sender->sendMessage("§a- " . $this->getConfig()->get("staff10"));
                     return true;
                 }
                 break;
