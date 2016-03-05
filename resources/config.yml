@@ -16,8 +16,6 @@ staff5: "Example"
 staff6: "Example"
 staff7: "Example"
 staff8: "Example"
-staff9: "Example"
-staff10: "Example"
 #Please do not add more Staff slots!
 #It may corrupt the config file!
 ...
